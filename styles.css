@@ -1,0 +1,123 @@
+* {
+    font-family: sans-serif;
+}
+
+
+.block1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding-top: 25px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 16px;
+    font-size: 18px;
+}
+.logo {
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.block2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    align-items: center;
+    gap: 30px;
+
+}
+.signup {
+    background-color: #3882F6;
+    display: flex;
+    color: white;
+    border-radius: 8px;
+    border: 1px #3882F6;
+    padding: 8px 24px;
+    
+}
+.block2left {
+    flex: 1;
+}
+.block2right {
+    flex: 1;
+    background-color: rgba(255, 255, 255, .3);
+    text-align: center;
+    padding: 75px;
+    
+}
+.random {
+    text-align: center;
+    margin: 50px 0px;
+}
+.block3 {
+    display: flex;
+    padding: 0px 100px;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.bluebox {
+    border: 3px solid #3882F6;
+    padding: 50px 50px;
+    border-radius: 8px;
+}
+.quotebox {
+    background-color: #E5E7EB;
+    padding: 75px 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.credit {
+    text-align: end;
+    padding-right: 75px;
+}
+.block4 {
+    
+    justify-content: center;
+    margin: 50px 0px;
+    padding: 0px 100px;
+    color: white;
+}
+.actionbox {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 8px;
+}
+.actionboxright {
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+.copyright {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 25px 0px;
+    color: white;
+}
+.bottombar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
